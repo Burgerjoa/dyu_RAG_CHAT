@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(.gitignore)",
+      "Bash(.env)",
+      "Bash(data/sample_data.json)",
+      "Bash(backend/rag_system.py)",
+      "Bash(backend/main.py)",
+      "Bash(frontend/app.py)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(if [ -d \"vectorstore\" ])",
+      "Bash(then rm -rf vectorstore)",
+      "Bash(else echo \"ℹ️ 벡터스토어 없음 (첫 실행 시 자동 생성됨)\")",
+      "Bash(fi)",
+      "Bash(if [ -d \"backend/vectorstore\" ])",
+      "Bash(then rm -rf backend/vectorstore)",
+      "Bash(else echo \"ℹ️ vectorstore 없음\")",
+      "Bash(iconv:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
