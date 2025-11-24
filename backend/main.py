@@ -84,7 +84,7 @@ async def startup_event():
         print("=" * 60)
         print("🚀 FastAPI 서버를 시작합니다...")
         print("=" * 60)
-        rag_system = RAGSystem(data_path="data/sample_data.json")
+        rag_system = RAGSystem(data_path="data/111_cleaned.json")
         print("✅ FastAPI 서버가 준비되었습니다!")
         print("=" * 60)
     except Exception as e:
