@@ -393,15 +393,3 @@ sqlite3.OperationalError: database is locked
 - 졸업작품 프로젝트
 
 ---
-
-## 🙏 감사의 말
-
-- [LangChain](https://www.langchain.com/) - RAG 프레임워크
-- [OpenAI](https://openai.com/) - GPT & Embeddings
-- [ChromaDB](https://www.trychroma.com/) - 벡터 데이터베이스
-- [FastAPI](https://fastapi.tiangolo.com/) - 웹 프레임워크
-- [Streamlit](https://streamlit.io/) - UI 프레임워크
-
----
-
-**© 2024 동양대학교 AI 도우미 | Powered by LangChain & OpenAI**
